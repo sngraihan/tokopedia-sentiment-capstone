@@ -19,7 +19,7 @@ Label sentimen dibuat otomatis berdasarkan rating:
 - `= 3` → **netral**
 - `≥ 4` → **positif**
 
-## 🛠️ Metodologi
+## Metodologi
 1. **EDA (Exploratory Data Analysis)**
    - Distribusi rating → mayoritas review bintang 5.
    - Panjang teks rata-rata ~55 karakter.
@@ -49,3 +49,7 @@ Label sentimen dibuat otomatis berdasarkan rating:
   - Kelebihan: fleksibel, bisa summarization + insight.
   - Kekurangan: butuh prompt ketat, performa tidak seimbang antar kelas.
 
+## Teknologi yang Digunakan
+- Python 3.12
+- Pandas, Numpy, Scikit-learn, Matplotlib
+- Replicate API (ibm-granite/granite-3.3-8b-instruct)
