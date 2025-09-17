@@ -1,9 +1,9 @@
 # Capstone Project Analisis Sentimen Ulasan Produk Tokopedia dengan IBM Granite
 
 ## Deskripsi
-Proyek ini bertujuan untuk menganalisis ulasan produk dari platform e-commerce **Tokopedia** menggunakan pendekatan machine learning tradisional (baseline) dan **Large Language Model IBM Granite** (melalui Replicate API).  
+Proyek ini bertujuan untuk menganalisis ulasan produk dari platform e-commerce Tokopedia menggunakan pendekatan machine learning tradisional (baseline) dan Large Language Model IBM Granite (melalui Replicate API).  
 Tujuan akhirnya adalah:
-- Mengklasifikasikan ulasan menjadi **positif, netral, atau negatif**.
+- Mengklasifikasikan ulasan menjadi positif, netral, atau negatif.
 - Mengevaluasi performa model baseline vs Granite.
 - Menghasilkan **insight & rekomendasi** yang bermanfaat untuk seller maupun platform.
 
