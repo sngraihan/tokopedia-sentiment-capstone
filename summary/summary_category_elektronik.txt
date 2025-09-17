@@ -1,0 +1,12 @@
+1) Top 3 Complaints:
+   - Seller mengirimkan warna yang tidak seperti yang ditanyakan (seperti mengirimkan warna pink saat diharapkan warna lain)
+   - Keterlambatan dalam pengiriman, melebihi waktu yang diharapkan
+   - Kualitas barang yang hanya "ok" atau "baik", tanpa lebih
+
+2) Top 3 Positives:
+   - Seller yang ramah dan responsif, menjawab pesan dengan cepat
+   - Pengiriman cepat, barang sampai dalam waktu singkat
+   - Barang sesuai dengan deskripsi dan gambar, kondisi baik
+
+3) Actionable Recommendation:
+Perbaiki sistem pengiriman untuk mencegah keterlambatan dan memastikan warna yang diinginkan dikirim sesuai pesanan. Juga, tingkatkan standar kualitas barang untuk meningkatkan kepuasan pelanggan.
