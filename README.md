@@ -1,13 +1,13 @@
 # Capstone Project — Analisis Sentimen Ulasan Produk Tokopedia dengan IBM Granite
 
-## 📌 Deskripsi
+## Deskripsi
 Proyek ini bertujuan untuk menganalisis ulasan produk dari platform e-commerce **Tokopedia** menggunakan pendekatan machine learning tradisional (baseline) dan **Large Language Model IBM Granite** (melalui Replicate API).  
 Tujuan akhirnya adalah:
 - Mengklasifikasikan ulasan menjadi **positif, netral, atau negatif**.
 - Mengevaluasi performa model baseline vs Granite.
 - Menghasilkan **insight & rekomendasi** yang bermanfaat untuk seller maupun platform.
 
-## 📂 Dataset
+## Dataset
 Dataset yang digunakan:
 - **Tokopedia Product Reviews (2019)** dari Kaggle  
   [Link dataset](https://www.kaggle.com/datasets/farhan999/tokopedia-product-reviews)  
@@ -38,6 +38,14 @@ Label sentimen dibuat otomatis berdasarkan rating:
 4. **Summarization (Insight)**
    - Granite digunakan untuk merangkum kumpulan ulasan per kategori.
    - Output berupa: *Top 3 keluhan, Top 3 hal positif, dan 1 rekomendasi*.
-  
 
+
+## Hasil
+- **Baseline (TF-IDF + Logistic Regression)**  
+  - Macro-F1: ~0.72 (cukup stabil antar kelas).
+  - Kelebihan: cepat, ringan, konsisten.
+- **Granite (LLM Zero-Shot via Replicate)**  
+  - Macro-F1 (N=1000): ~0.44
+  - Kelebihan: fleksibel, bisa summarization + insight.
+  - Kekurangan: butuh prompt ketat, performa tidak seimbang antar kelas.
 
